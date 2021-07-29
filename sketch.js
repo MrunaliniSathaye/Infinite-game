@@ -13,8 +13,8 @@ var gameOverImg,restartImg
 var jumpSound , checkPointSound, dieSound
 
 function preload(){
-  trex_running = loadAnimation("trex1.png","trex3.png","trex4.png");
-  trex_collided = loadAnimation("trex_collided.png");
+  trex_running = loadAnimation("Run 1.jpg","Run 2.jpg","Run 3.jpg");
+  trex_collided = loadAnimation("Run 1.jpg");
   
   groundImage = loadImage("ground2.png");
   
